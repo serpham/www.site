@@ -1,0 +1,523 @@
+.home {
+    width: 100px;
+    color: aliceblue;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 620px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: HeinzLabel, Supreme LL;
+    font: HeinzLabel;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.home::before,
+.home::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.4s ease;
+}
+
+
+/* Верхняя линия */
+
+.home::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Нижняя линия */
+
+.home::after {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Эффект при наведении */
+
+.home:hover::before,
+.home:hover::after {
+    width: 100%;
+}
+
+.home:hover {
+    background-color: #5c7abd;
+}
+
+.projects {
+    width: 130px;
+    color: aliceblue;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 820px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: HeinzLabel, Supreme LL;
+    font: HeinzLabel;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.projects::before,
+.projects::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.4s ease;
+}
+
+
+/* Верхняя линия */
+
+.projects::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Нижняя линия */
+
+.projects::after {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Эффект при наведении */
+
+.projects:hover::before,
+.projects:hover::after {
+    width: 100%;
+}
+
+.projects:hover {
+    background-color: #5c7abd;
+}
+
+.contacts {
+    width: 130px;
+    color: aliceblue;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 1020px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: HeinzLabel, Supreme LL;
+    font: HeinzLabel;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.contacts::before,
+.contacts::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.4s ease;
+}
+
+
+/* Верхняя линия */
+
+.contacts::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Нижняя линия */
+
+.contacts::after {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Эффект при наведении */
+
+.contacts:hover::before,
+.contacts:hover::after {
+    width: 100%;
+}
+
+.contacts:hover {
+    background-color: #5c7abd;
+}
+
+.DevHub {
+    width: 1400px;
+    height: 250px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    border-radius: 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px;
+    animation-name: asd;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-delay: unset;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.Narumi {
+    width: 1400px;
+    height: 250px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    border-radius: 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px;
+    animation-name: asd;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-delay: unset;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.DevHub-avatarka {
+    background-image: url(assets/DevHub.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 30px 30px 30px;
+    background-size: contain;
+    -webkit-border-radius: 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px;
+    animation-name: asd1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    z-index: 2;
+    top: 175px;
+    display: none;
+}
+
+.DevHub-button {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px;
+    border: 1px solid black;
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    animation-name: asd2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 330px;
+    opacity: 0.7;
+    color: aliceblue;
+    display: none;
+    z-index: 2;
+}
+
+.DevHub-button:hover {
+    background-color: aliceblue;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    cursor: pointer;
+    color: black;
+}
+
+.Lunacy-avatarka {
+    background-image: url(assets/a_5ac1563171a7b2d65a6ca8a86e9f2447.gif);
+    width: 200px;
+    height: 200px;
+    border-radius: 30px 30px 30px;
+    background-size: contain;
+    -webkit-border-radius: 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px;
+    animation-name: asd1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    z-index: 2;
+    top: 475px;
+    display: none;
+}
+
+.Lunacy-button {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px;
+    border: 1px solid black;
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    animation-name: asd2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 630px;
+    opacity: 0.7;
+    color: aliceblue;
+    display: none;
+    z-index: 2;
+}
+
+.Lunacy-button:hover {
+    background-color: aliceblue;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    cursor: pointer;
+    color: black;
+}
+
+.contactss {
+    width: 1400px;
+    height: 825px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 40px 40px 40px;
+    top: 100px;
+    left: 225px;
+    -webkit-border-radius: 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px;
+    display: none;
+    animation-name: xd;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.avatarka-moja {
+    background-image: url(assets/26aaad18-50ea-4d34-b9d0-7f082a60f597.jpeg);
+    width: 300px;
+    height: 300px;
+    border-radius: 150px 150px 150px;
+    background-size: contain;
+    -webkit-border-radius: 150px 150px 150px;
+    -moz-border-radius: 150px 150px 150px;
+    -ms-border-radius: 150px 150px 150px;
+    -o-border-radius: 150px 150px 150px;
+    animation-name: asd4;
+    animation-duration: 1s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    z-index: 2;
+    top: 225px;
+    display: none;
+}
+
+.telegram {
+    width: 200px;
+    height: 60px;
+    background-image: url(assets/Frame\ 3.png);
+    color: white;
+    position: absolute;
+    border: 0;
+    border-radius: 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px;
+    display: none;
+    animation-name: telegraam;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 650px;
+    z-index: 2;
+    box-shadow: 0px 0px 10px black;
+}
+
+.telegram:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.discord {
+    width: 200px;
+    height: 60px;
+    background-image: url(assets/Frame\ 3.png);
+    color: white;
+    position: absolute;
+    border: 0;
+    border-radius: 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px;
+    display: none;
+    animation-name: discoord;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 650px;
+    z-index: 2;
+    box-shadow: 0px 0px 10px black;
+}
+
+.discord:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+
+/*
+ANIMATIONS
+*/
+
+@keyframes xd {
+    0% {
+        left: 100px;
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.4;
+        left: 225px;
+        box-shadow: 0px 0px 10px black;
+    }
+}
+
+@keyframes telegraam {
+    0% {
+        left: 0px;
+    }
+    50% {}
+    100% {
+        left: 650px;
+        box-shadow: 0px 0px 10px black;
+    }
+}
+
+@keyframes discoord {
+    0% {
+        left: 0px;
+    }
+    50% {}
+    100% {
+        left: 950px;
+        box-shadow: 0px 0px 10px black;
+    }
+}
+
+@keyframes asd {
+    0% {
+        opacity: 0.1;
+        left: 0px;
+    }
+    25% {
+        opacity: 0.2;
+        left: 50px;
+    }
+    50% {
+        opacity: 0.3;
+        left: 100px;
+    }
+    75% {
+        left: 150px;
+    }
+    100% {
+        opacity: 0.4;
+        left: 200px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+}
+
+@keyframes asd1 {
+    0% {
+        left: 0px;
+    }
+    25% {}
+    50% {}
+    75% {}
+    100% {
+        left: 240px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+}
+
+@keyframes asd2 {
+    0% {
+        left: 0px;
+    }
+    25% {}
+    50% {}
+    75% {}
+    100% {
+        left: 480px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+}
+
+@keyframes asd4 {
+    0% {
+        left: 0px;
+    }
+    25% {}
+    50% {}
+    75% {}
+    100% {
+        left: 750px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+}
